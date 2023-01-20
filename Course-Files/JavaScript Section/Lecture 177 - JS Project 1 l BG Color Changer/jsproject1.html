@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JavaScript Exercise</title>
+</head>
+
+<body>
+
+<script>
+
+var bgcolor=new Array("#029FD4", "#D43702", "#1EFF00", "#EAEAFF", "#FFEA00", "#AB5252", "#FFFFFF", "#DE28D8")
+
+document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
+
+</script>
+
+</body>
+
+</html>

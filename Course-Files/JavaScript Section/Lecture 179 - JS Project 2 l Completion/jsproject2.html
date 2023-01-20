@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Web Page</title>
+
+<style>
+
+	body {
+		background: #222;
+		margin-top: 20px;
+		font-family: arial;
+		color: white;
+	}
+	
+	.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+	}
+	
+	.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	}
+	
+	.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+	}
+	
+</style>
+
+</head>
+<body>
+
+<div id="container" align="center">
+
+	<h1>My Web Page Gallery</h1>
+		
+	<br />
+	
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="images/img1.jpg" />
+		<img onmouseover="preview.src=img2.src" name="img2" src="images/img2.jpg" />
+		<img onmouseover="preview.src=img3.src" name="img3" src="images/img3.jpg" />
+		<img onmouseover="preview.src=img4.src" name="img4" src="images/img4.jpg" />
+		<img onmouseover="preview.src=img5.src" name="img5" src="images/img5.jpg" />
+	</div>
+	
+	<br/>
+	
+	<div class="preview" align="center">
+		<img name="preview" src="images/img1.jpg" />
+	</div>
+
+</div>
+
+</body>
+</html>
